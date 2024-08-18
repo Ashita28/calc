@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="icon" type="image/x-icon/png" href="logo_img.png">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <main class="calculator">
+        <div id="calc-name">calc</div>
+        <section class="display">
+            <div id="result"></div>
+        </section>
+        <section class="buttons">
+            <button class="btn" data-value="7">7</button>
+            <button class="btn" data-value="8">8</button>
+            <button class="btn" data-value="9">9</button>
+            <button class="btn del" data-action="del">DEL</button>
+            <button class="btn" data-value="4">4</button>
+            <button class="btn" data-value="5">5</button>
+            <button class="btn" data-value="6">6</button>
+            <button class="btn" data-value="+">+</button>
+            <button class="btn" data-value="1">1</button>
+            <button class="btn" data-value="2">2</button>
+            <button class="btn" data-value="3">3</button>
+            <button class="btn" data-value="-">-</button>
+            <button class="btn" data-value=".">.</button>
+            <button class="btn" data-value="0">0</button>
+            <button class="btn" data-value="/">/</button>
+            <button class="btn" data-value="x">x</button>
+            <button class="btn reset" data-action="reset">RESET</button>
+            <button class="btn equal" data-action="calculate">=</button>
+        </section>
+    </main>
+</body>
+<script src="logic.js"></script>
+</html>
